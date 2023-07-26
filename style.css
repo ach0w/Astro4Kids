@@ -15,7 +15,7 @@ h1:before {
         content: "";
         display: block;
         width: 150px;
-        height: 5px;
+        height: 3px;
         background: #CD5C5C;
         left: 85px;
         top: 50%;
@@ -25,14 +25,14 @@ h1:before {
         content: "";
         display: block;
         width: 150px;
-        height: 5px;
+        height: 3px;
         background: #CD5C5C;
         right: 85px;
         top: 50%;
         position: absolute;
       }
 h2 {
-  color: blue;
+  color: lightblue;
   text-align: center;
 }
 
