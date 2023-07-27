@@ -11,26 +11,7 @@ h1 {
   text-align: center;
   margin-top: 2px;
 }
-h1:before {
-        content: "";
-        display: block;
-        width: 150px;
-        height: 3px;
-        background: #CD5C5C;
-        left: 85px;
-        top: 50%;
-        position: absolute;
-      }
-      h1:after {
-        content: "";
-        display: block;
-        width: 150px;
-        height: 3px;
-        background: #CD5C5C;
-        right: 85px;
-        top: 50%;
-        position: absolute;
-      }
+
 h2 {
   color: lightblue;
   text-align: center;
