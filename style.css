@@ -30,7 +30,7 @@ h2 {
   display: flex;
 }
 
-.column {
+.col-sm-4 {
   float: 33.33%;
   padding: 5px;
 }
