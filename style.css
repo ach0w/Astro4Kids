@@ -29,15 +29,6 @@ h2 {
   
 }
 
-.row{
-  display: flex;
-}
-
-.col-sm-4 {
-  float: 33.33%;
-  padding: 5px;
-}
-
 #kepler-452b {
   margin-top: 80px;
   margin-left: 225px;
