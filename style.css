@@ -8,14 +8,14 @@ p {
 }
 
 h1 {
-  color: white;
+  color: white !important;
   text-align: center;
   margin-top: 2px;
   font-family: Roboto;
 }
 
 h2 {
-  color: lightblue;
+  color: lightblue !important;
   text-align: center;
   font-family: Roboto;
 }
