@@ -7,8 +7,8 @@ p {
   background-image: url("https://media.istockphoto.com/id/938050474/photo/twinkling-star-field-overlay-texture-on-black-background.webp?b=1&s=170667a&w=0&k=20&c=VzUGpDajctHoe9dyQ9DwU7r7FOe2X7e-xJwSg5Da7ck=");
 }
 
-h1 {
-  color: white !important;
+.myheader1 {
+  color: white;
   text-align: center;
   margin-top: 2px;
   font-family: Roboto;
