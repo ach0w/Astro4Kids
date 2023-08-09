@@ -14,8 +14,8 @@ p {
   font-family: Roboto;
 }
 
-h2 {
-  color: lightblue !important;
+.myheader2 {
+  color: lightblue;
   text-align: center;
   font-family: Roboto;
 }
