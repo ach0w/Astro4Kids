@@ -36,3 +36,9 @@ p {
 #55-cancri-e {
 
 }  
+
+.lines {
+  color: yellow;
+  width: 80%;
+  size: 8;
+}
