@@ -38,7 +38,6 @@ p {
 }  
 
 .hr-text {
-  color: yellow !important;
-  width: 80%;
-  size: 8;
+  color: yellow;
+  width: 50px;
 }
