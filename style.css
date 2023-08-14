@@ -37,7 +37,13 @@ p {
 
 }  
 
-hr {
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
   color: yellow;
-  width: 50px;
-}
