@@ -38,12 +38,12 @@ p {
 }  
 
 .hr-text {
-  line-height: 1em;
-  position: relative;
-  outline: 0;
-  border: 0;
-  color: black;
+  line-height: 1em !important;
+  position: relative !important;
+  outline: 0 !important;
+  border: 0 !important;
+  color: yellow !important;
   text-align: center;
-  height: 1.5em;
-  opacity: .5;
-  color: yellow;
+  height: 1.5em !important;
+  opacity: .5 !important;
+}
