@@ -12,6 +12,8 @@ const create3DEnvironment = () => {
   const far = 5;
 
   const camera = new THREE.PerspectiveCamera(fieldOfView, aspect, near, far);
+  
+  const scene = new THREE.Scene();
 };
 
 create3DEnvironment();
