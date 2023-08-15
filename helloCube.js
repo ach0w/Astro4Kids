@@ -24,7 +24,21 @@ const create3DEnvironment = () => {
 
   const cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
+
+  renderer.render(scene, camera)
+  document.body.appendChild(renderer.domElement);
+  requestAnimationFrame(animate)
+
+  const animate = (time, speed=1) => {
+    time *= 0.001; // converted to seconds
+
+    const rotation = time * speed;
+    cube.rotation.x = rotation;
+    cube.rotation.y = rotation;
+ };
+  requestAnimationFrame(animate)
 };
+
 
 create3DEnvironment();
 
