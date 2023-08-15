@@ -13,7 +13,12 @@ const create3DEnvironment = () => {
 
   const camera = new THREE.PerspectiveCamera(fieldOfView, aspect, near, far);
   
-  const scene = new THREE.Scene();
+  const scene = new THREE.Scene()
+  
+  const width = 1;
+  const height = 1;
+  const depth = 1;
+  const geometry = new THREE.BoxGeometry(width, height, depth);
 };
 
 create3DEnvironment();
