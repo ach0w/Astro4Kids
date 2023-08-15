@@ -21,6 +21,9 @@ const create3DEnvironment = () => {
   const geometry = new THREE.BoxGeometry(width, height, depth);
 
   const material = new THREE.MeshBasicMaterial({ color: 0xc2c5cc });
+
+  const cube = new THREE.Mesh(geometry, material);
+  scene.add(cube);
 };
 
 create3DEnvironment();
