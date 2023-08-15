@@ -40,7 +40,6 @@ p {
 .hr-text {
 line-height: 1em !important;
     position: relative !important;
-    outline: 0 !important;
     border-color: red !important;
     text-align: center !important;
     height: auto !important;
