@@ -19,6 +19,8 @@ const create3DEnvironment = () => {
   const height = 1;
   const depth = 1;
   const geometry = new THREE.BoxGeometry(width, height, depth);
+
+  const material = new THREE.MeshBasicMaterial({ color: 0xc2c5cc });
 };
 
 create3DEnvironment();
