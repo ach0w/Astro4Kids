@@ -47,6 +47,6 @@ line-height: 1em !important;
     width: 50px !important;
 }
 
-.nav-navbar-nav {
-  color: white;
+a {
+  color: lightgoldenrodyellow;
 }
