@@ -47,6 +47,7 @@ line-height: 1em !important;
     width: 50px !important;
 }
 
-a {
+nav {
   color: lightgoldenrodyellow !important;
+  display: inline-block;
 }
