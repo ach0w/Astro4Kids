@@ -46,3 +46,7 @@ line-height: 1em !important;
     opacity: .5 !important;
     width: 50px !important;
 }
+
+.nav-navbar-nav {
+  color: white;
+}
