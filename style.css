@@ -47,7 +47,7 @@ line-height: 1em !important;
     width: 50px !important;
 }
 
-nav {
-  color: lightgoldenrodyellow !important;
+.navbar {
+  color: lightgoldenrodyellow;
   display: inline-block;
 }
