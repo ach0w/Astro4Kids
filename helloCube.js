@@ -34,6 +34,6 @@ const create3DEnvironment = () => {
   console.log('appended renderer to DOM');
 };
 
-
+create3DEnvironment();
 
 
