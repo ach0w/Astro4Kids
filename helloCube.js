@@ -34,8 +34,6 @@ const create3DEnvironment = () => {
   console.log('appended renderer to DOM');
 };
 
-console.log('About to call 3DEnvironment');
-create3DEnvironment();
-console.log('Finished calling 3DEnvironment');
+
 
 
