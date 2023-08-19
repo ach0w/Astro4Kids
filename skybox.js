@@ -13,6 +13,11 @@ renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.domElement.id = "canvas";
 document.body.appendChild(renderer.domElement);
+
+    skyboxGeo = new THREE.BoxGeometry(10000, 10000, 10000);
+    skybox = new THREE.Mesh(skyboxGeo);
+    scene.add(skybox);
+    
 animate();
 }
 function animate() {
