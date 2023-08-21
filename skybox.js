@@ -33,8 +33,6 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-init();
-
 function createPathStrings(barren) {
     const basePath = "./skybox/";
     const baseFilename = basePath + barren;
@@ -46,3 +44,6 @@ function createPathStrings(barren) {
 
 return pathStrings;
 }
+
+init();
+
