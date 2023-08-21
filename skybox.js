@@ -11,7 +11,7 @@ function init() {
         45,
         30000
     );
-    camera.position.set(1200, -250, 2000;)
+    camera.position.set(1200, -250, 2000);
    
     // This creates a canvas element and graphics become smoother with antialias
     renderer = new THREE.WebGLRenderer({ antialias: true });
