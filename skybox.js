@@ -52,7 +52,6 @@ function createMaterialArray(barren) {
         let texture = new THREE.TextureLoader().load(image);
 
          return new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide }); // <---
-});
   });
     return materialArray;
 }
