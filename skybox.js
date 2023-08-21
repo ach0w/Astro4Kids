@@ -40,9 +40,9 @@ function createPathStrings(barren) {
     const baseFilename = basePath + barren;
     const fileType = ".jpg";
     const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
-    const pathStings = sides.map(side => {
+    const pathStrings = sides.map(side => {
         return baseFilename + "_" + side + fileType;
 });
 
-return pathStings;
+return pathStrings;
 }
