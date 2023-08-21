@@ -42,9 +42,20 @@ function createPathStrings(barren) {
         return baseFilename + "_" + side + fileType;
 });
 
-    return pathStrings;
-    
+    return pathStrings;  
 }
+
+let skyboxImage = "kepler452-b";
+function createMaterialArray(barren) {
+    const skyboxImagepaths = createPathStrings(barren);
+    const materialArray = skyboxImagepaths.map(image => {
+    l    let texture = new THREE.TextureLoader().load(image);
+
+         return texture;
+  });
+    return materialArray;
+}
+
 
 init();
 
