@@ -45,7 +45,7 @@ function createPathStrings(barren) {
     return pathStrings;  
 }
 
-let skyboxImage = "kepler452-b";
+let skyboxImage = "barren";
 function createMaterialArray(barren) {
     const skyboxImagepaths = createPathStrings(barren);
     const materialArray = skyboxImagepaths.map(image => {
