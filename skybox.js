@@ -35,3 +35,14 @@ function animate() {
 
 init();
 
+function createPathStrings(barren) {
+    const basePath = "./skybox/";
+    const baseFilename = basePath + barren;
+    const fileType = ".jpg";
+    const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
+    const pathStings = sides.map(side => {
+        return baseFilename + "_" + side + fileType;
+});
+
+return pathStings;
+}
