@@ -49,7 +49,7 @@ function createPathStrings(barren) {
     return pathStrings;  
 }
 
-let skyboxImage = 'barren';
+
 function createMaterialArray(barren) {
     const skyboxImagepaths = createPathStrings(barren);
     const materialArray = skyboxImagepaths.map(image => {
