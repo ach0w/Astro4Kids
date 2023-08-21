@@ -1,6 +1,6 @@
 let scene, camera, renderer, skyboxGeo, skybox;
 
-const skyboxImage = 'barren';
+const skyboxImage = 'valley';
 
 function init() {
     // Creates scene and camera
@@ -37,9 +37,9 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-function createPathStrings(barren) {
+function createPathStrings(valley) {
     const basePath = "./skybox/";
-    const baseFilename = basePath + barren;
+    const baseFilename = basePath + valley;
     const fileType = ".jpg";
     const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
     const pathStrings = sides.map(side => {
@@ -51,7 +51,7 @@ function createPathStrings(barren) {
 
 
 function createMaterialArray(barren) {
-    const skyboxImagepaths = createPathStrings(barren);
+    const skyboxImagepaths = createPathStrings(valley);
     const materialArray = skyboxImagepaths.map(image => {
         let texture = new THREE.TextureLoader().load(image);
 
