@@ -49,9 +49,10 @@ let skyboxImage = "kepler452-b";
 function createMaterialArray(barren) {
     const skyboxImagepaths = createPathStrings(barren);
     const materialArray = skyboxImagepaths.map(image => {
-    l    let texture = new THREE.TextureLoader().load(image);
+        let texture = new THREE.TextureLoader().load(image);
 
-         return texture;
+         return new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide }); // <---
+});
   });
     return materialArray;
 }
