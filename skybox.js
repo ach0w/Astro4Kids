@@ -1,5 +1,7 @@
 let scene, camera, renderer, skyboxGeo, skybox;
 
+const skyboxImage = 'barren';
+
 function init() {
     // Creates scene and camera
     scene = new THREE.Scene();
@@ -18,10 +20,12 @@ function init() {
     document.body.appendChild(renderer.domElement);
 
     // Creates the skybox
-    skyboxGeo = new THREE.BoxGeometry(10000, 10000, 10000);
-    skybox = new THREE.Mesh(skyboxGeo);
-    scene.add(skybox);
 
+    const materialArray = createMaterialArray(skyboxImage);
+    skyboxGeo = new THREE.BoxGeometry(10000, 10000, 10000);
+    skybox = new THREE.Mesh(skyboxGeo, materialArray);
+    scene.add(skybox);
+    
     // Animates the skybox
     animate();
 }
