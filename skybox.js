@@ -42,7 +42,8 @@ function createPathStrings(barren) {
         return baseFilename + "_" + side + fileType;
 });
 
-return pathStrings;
+    return pathStrings;
+    
 }
 
 init();
