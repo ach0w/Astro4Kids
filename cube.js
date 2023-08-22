@@ -1,6 +1,6 @@
 let scene, camera, renderer, skyboxGeo, skybox;
 
-const skyboxImage = 'vulcan';
+const skyboxImage = 'skybox/vulcan';
 
 function init() {
     // Creates scene and camera
@@ -38,9 +38,9 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-function createPathStrings(vulcan) {
+function createPathStrings(skybox/vulcan) {
     const basePath = "./skybox/";
-    const baseFilename = basePath + vulcan;
+    const baseFilename = basePath + skybox/vulcan;
     const fileType = ".jpg";
     const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
     const pathStrings = sides.map(side => {
@@ -51,8 +51,8 @@ function createPathStrings(vulcan) {
 }
 
 
-function createMaterialArray(vulcan) {
-    const skyboxImagepaths = createPathStrings(vulcan);
+function createMaterialArray(skybox/vulcan) {
+    const skyboxImagepaths = createPathStrings(skybox/vulcan);
     const materialArray = skyboxImagepaths.map(image => {
         let texture = new THREE.TextureLoader().load(image);
 
