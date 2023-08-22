@@ -32,7 +32,8 @@ function init() {
 }
 
 function animate() {
-    controls.update();
+    skybox.rotation.x += 0.005;
+    skybox.rotation.y += 0.005;
     renderer.render(scene, camera);
     requestAnimationFrame(animate);
 }
