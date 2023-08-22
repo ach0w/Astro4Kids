@@ -12,13 +12,9 @@ function init() {
         30000
     );
     camera.position.set(1200, -250, 2000);
-
-    controls = new THREE.OrbitControls(camera, renderer.domElement);
-    controls.enabled = true;
-    controls.minDistance = 700;
-    controls.maxDistance = 1500;
    
     // This creates a canvas element and graphics become smoother with antialias
+    
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.domElement.id = "canvas";
