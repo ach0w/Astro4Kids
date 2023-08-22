@@ -51,7 +51,7 @@ function createPathStrings(vulcan) {
 }
 
 
-function createMaterialArray(skybox/vulcan) {
+function createMaterialArray(vulcan) {
     const skyboxImagepaths = createPathStrings(vulcan);
     const materialArray = skyboxImagepaths.map(image => {
         let texture = new THREE.TextureLoader().load(image);
